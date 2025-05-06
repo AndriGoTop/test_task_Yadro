@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# dotenv files
+.env
+.env.*
+
+# Test-related files
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+noxfile.py
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Docker-related
+docker-compose.override.yml
+Dockerfile
+
+# Git
+.git
+.gitignore
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Migrations (optional)
+migrations/
+
+# Any local data or dev-only files
+*.db
+*.sqlite3

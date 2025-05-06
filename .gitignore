@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+test-results.xml
+.pytest_cache/
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# dotenv environment variables
+.env
+.env.*
+
+# SQLite / DB files
+*.db
+*.sqlite3
+
+# MyPy
+.mypy_cache/
+
+# Bandit security reports
+bandit.json
+
+# Pydantic compiled files
+*.pyd
+
+# Alembic migrations cache
+versions/
+
+# Docker files
+*.pid
+*.tar
+*.img
+
+# Local dev files
+.DS_Store
+Thumbs.db
