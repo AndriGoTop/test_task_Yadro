@@ -54,14 +54,14 @@ test = {
 }
 
 @app.get('/api/graph/{graph_id}/')
-async def get_graph(graph_id, db: db_dependency):
+async def get_graph(graph_id: int, db: db_dependency):
     result = db.query(models.Graphs).filter(models.Graphs.id == graph_id).first()
     if not result:
         raise HTTPException(status_code=404, detail='Graph entity not found')
     return result
 
 @app.get('/api/graph/{graph_id}/adjacency_list')
-async def get_graph(graph_id, db: db_dependency):
+async def get_graph(graph_id: int, db: db_dependency):
     result = db.query(models.Graphs).filter(models.Graphs.id == graph_id).first()
     if not result:
         raise HTTPException(status_code=404, detail='Graph entity not found')
